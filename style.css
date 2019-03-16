@@ -15,32 +15,37 @@ html{
 	display: flex;
 	overflow: hidden;	
 }
+.disable {
+	display: none;
+}
 .panel{
-	
-	padding-top: 10px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding-top: 3%;
 	font-family: 'Shadows Into Light Two', cursive;
 	color: white;
+	letter-spacing: 2px;
 	text-align: center;
 	align-items: center;
 	width: 100%;
-	min-height: 100vh;
-    flex: 1;
+  min-height: 100vh;
+  flex: 1;
 	line-height: 30px;
 	justify-content: center;
 	flex-direction: column;
 	background-position: center;
 	overflow: hidden;
-	font-size: 20px;
-	font-weight: 200px;
-	opacity: 0.8;
+	font-size: 32px;
+	font-weight: normal;
+	opacity: 0.9;
 	transition:
         font-size 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11),
         flex 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11),
         background 0.3s;
-        line-height 0.4s;
 }
 .open{
-	font-size: 50px;
+	font-size: 0px;
 	line-height: 70px;
 	flex: 5;
 	opacity: 1;
@@ -104,32 +109,26 @@ html{
 }
 
 .panel-1{
-	color: #f7ddaa;
-	background-image: url('https://www.henryfields.com/images/800/66484.jpg');
-	background-repeat: no-repeat;
+	background-image: url('images/bear.jpg');
 }
 .panel-2{
-	background-image: url('https://s-media-cache-ak0.pinimg.com/originals/dd/c8/5e/ddc85ea60f6b5d4264e4b5bd06e003b8.jpg');
-	background-repeat: no-repeat;
+	background-image: url('images/sparrow.jpg');
 }
 .panel-3{
-	color: #000;
-	background-image: url('https://www.christmasconnections.co.uk/wp-content/uploads/sites/2/2016/09/work-christmas-party6.jpg');
-	background-repeat: no-repeat;
+	background-image: url('images/panda.jpeg');
 }
 .panel-4{
-	background-image: url('https://www.rehanzia.net/blog/wp-content/uploads/bfi_thumb/MG_3533-moiw2mtrld6onn2tp6rs82c8mesnzbck8lnqira7gg.jpg');
-background-repeat: no-repeat;
+	background-image: url('images/parrot.jpg');
+	
 }
 .panel-5{
-	color: #4a5b57;
-	background-image: url('https://i2.wp.com/charlotteslivelykitchen.com/wp-content/uploads/2016/06/Salmon-and-Sweet-Potato-Fishcakes-9.jpg?resize=800%2C800&ssl=1');
-background-repeat: no-repeat;
+	background-image: url('images/lemur.jpg');
 }
 .panel-6 {
 	background-color: #e5e247;
 	color: #2a4c60;
-   background-repeat: no-repeat;
 }
 
-
+.click {
+	font-size: 18px;
+}

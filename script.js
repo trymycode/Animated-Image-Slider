@@ -20,7 +20,9 @@ panel5.addEventListener("click", function(){
 	this.classList.toggle("open");
 })
 var panel6 = document.querySelector(".panel-6");
+var para = document.getElementById("para");
 panel6.addEventListener("click", function(){
+	para.classList.toggle("disable");
 	this.classList.toggle("open");
 	document.querySelector(".monkey").classList.toggle("monkeyToggle");
 	document.querySelector(".monkey").classList.toggle("swing");
@@ -33,3 +35,5 @@ panel6.addEventListener("click", function(){
   }, 1000);
 		
 })
+ 
+ 
