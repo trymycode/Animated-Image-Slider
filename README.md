@@ -1,4 +1,4 @@
-# Image-slider
+# Animated-Image-slider
 It is a simple animated image slider made by using HTML, CSS and JAVASCRIPT.
 
 ## How to run
